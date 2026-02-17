@@ -144,6 +144,13 @@ bin/kafka-console-producer.sh --topic sensor-data_2 --bootstrap-server localhost
 
 #### Start a Kafka Consumer
 
+On another terminal, create Kafka consumer
+
+bin/kafka-console-consumer.sh \
+  --topic sensor-data_2 \
+  --bootstrap-server localhost:9092 \
+  --from-beginning
+
 <img width="1280" height="720" alt="Image" src="https://github.com/user-attachments/assets/61b6fc7b-b6c1-46d3-accb-b87acbbabf93" />
 
 ## Step 3: Create a Maven Project
@@ -279,6 +286,13 @@ tail -f log/flink-*-taskexecutor-0-*.out
 
 Most enterprise Flink streaming jobs are Java/Scala JARs, often containerized.
 
+> [!NOTE]
+> PyFlink version of the project exist here: https://github.com/manuelbomi/Flink-for-Real-Time-Enterprise-Streaming-Data-Insights-and-Anomaly-Detection   and here: https://github.com/manuelbomi/Flink-and-Kafka-Based-Real-Time-Data-Engineering-Pipeline
+>
+> 
+
+
+
 ---
 
 ### Step 7: Enterprise Applications
@@ -289,4 +303,30 @@ This project can be extended for:
 
 - Banking: Real-time fraud detection from transaction streams
 
-- Hospitality / Entertainment: Monitoring real-time bookings, occupancy, or equipment sensors for operational alerts
+- Hospitality / Entertainment: Monitoring real-time bookings, occupancy, video streaming or equipment sensors for operational alerts
+  
+---
+
+---
+
+### Thank you for reading
+---
+
+### **AUTHOR'S BACKGROUND**
+### Author's Name:  Emmanuel Oyekanlu
+```
+Skillset:   I have experience spanning several years in data science, developing scalable enterprise data pipelines,
+enterprise solution architecture, architecting enterprise systems data and AI applications,
+software and AI solution design and deployments, data engineering, high performance computing (GPU, CUDA), machine learning,
+NLP, Agentic-AI and LLM applications as well as deploying scalable solutions (apps) on-prem and in the cloud.
+
+I can be reached through: manuelbomi@yahoo.com
+
+Website:  http://emmanueloyekanlu.com/
+Publications:  https://scholar.google.com/citations?user=S-jTMfkAAAAJ&hl=en
+LinkedIn:  https://www.linkedin.com/in/emmanuel-oyekanlu-6ba98616
+Github:  https://github.com/manuelbomi
+
+```
+[![Icons](https://skillicons.dev/icons?i=aws,azure,gcp,scala,mongodb,redis,cassandra,kafka,anaconda,matlab,nodejs,django,py,c,anaconda,git,github,mysql,docker,kubernetes&theme=dark)](https://skillicons.dev)
+
