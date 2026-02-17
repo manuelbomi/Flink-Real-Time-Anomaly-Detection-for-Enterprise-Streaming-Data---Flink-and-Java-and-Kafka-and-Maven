@@ -334,7 +334,4 @@ Github:  https://github.com/manuelbomi
 
   [![HitCount](https://hits.dwyl.com/manuelbomi/https://githubcom/manuelbomi/Flink-Real-Time-Anomaly-Detection-for-Enterprise-Streaming-Data---Java.svg?style=flat-square&show=unique)](http://hits.dwyl.com/manuelbomi/https://githubcom/manuelbomi/Flink-Real-Time-Anomaly-Detection-for-Enterprise-Streaming-Data---Java)
 
-    [![HitCount](https://hits.dwyl.com/manuelbomi/https://githubcom/manuelbomi/Flink-Real-Time-Anomaly-Detection-for-Enterprise-Streaming-Data---Java.svg?style=flat&show=unique)](http://hits.dwyl.com/manuelbomi/https://githubcom/manuelbomi/Flink-Real-Time-Anomaly-Detection-for-Enterprise-Streaming-Data---Java)
-
-   https://hits.dwyl.com/manuelbomi/https://githubcom/manuelbomi/Flink-Real-Time-Anomaly-Detection-for-Enterprise-Streaming-Data---Java.json
 
