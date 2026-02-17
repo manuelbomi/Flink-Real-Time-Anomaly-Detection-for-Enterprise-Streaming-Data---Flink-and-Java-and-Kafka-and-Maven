@@ -222,3 +222,35 @@ cd ~/flink-1.19.1
 ./bin/flink run flink-anomaly-1.0-SNAPSHOT.jar
 
 ```
+
+Monitor anomalies in real time:
+
+```python
+tail -f log/flink-*-taskexecutor-0-*.out
+```
+
+---
+
+### Step 6: Why Use Java over PyFlink for Enterprise
+
+- Lower runtime overhead, no Python harness
+
+- Better checkpointing & state management
+
+- Standard for CI/CD and production deployment pipelines
+
+- Easier integration with Flink cluster resources (YARN, Kubernetes, REST)
+
+Most enterprise Flink streaming jobs are Java/Scala JARs, often containerized.
+
+---
+
+### Step 7: Enterprise Applications
+
+This project can be extended for:
+
+- Manufacturing: Detecting machine sensor anomalies to prevent downtime
+
+- Banking: Real-time fraud detection from transaction streams
+
+- Hospitality / Entertainment: Monitoring real-time bookings, occupancy, or equipment sensors for operational alerts
